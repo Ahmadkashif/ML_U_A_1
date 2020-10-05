@@ -1,7 +1,7 @@
 ##
 ## This is the main Assignment runner function.
 #
-
+from Question__4_ import question4
 question1Input = "qwertyuiopasdfghjklzxcvbnm";
 
 question4Input1 = {
@@ -17,3 +17,4 @@ question4Input2 = {
     'b':3,
     'c':4
 }
+print(question4(question4Input1,question4Input2))
